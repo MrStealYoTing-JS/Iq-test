@@ -20,13 +20,11 @@ def main():
 
         for line in data:
             finished = False
-            print(time.perf_counter())
             if time.perf_counter() >= seconds:
                 print('Time\'s up! ')
                 return
             if data.index(line) != 0:
-                
-                if data[data.index(line)] and data[data.index(line)] != data[-1]:
+                if data[data.index(line)] != data[-1]:
                     if line.startswith('\na'):
                         answer = data[data.index(line)][10:]
                     else:
@@ -34,8 +32,6 @@ def main():
                             print('Time\'s up! ')
                             return
                         print(line)
-                        
-                            
                         ans = input("Enter answer here : ")
 
                         if str(ans).lower() == str(answer).lower():
