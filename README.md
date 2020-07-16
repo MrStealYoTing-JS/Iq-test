@@ -1,3 +1,4 @@
+[![Run on Repl.it](https://repl.it/badge/github/Marcopy123/Iq-test)](https://repl.it/github/Marcopy123/Iq-test)
 # IQ-test
 This python program generates an IQ test.
 
